@@ -1,0 +1,54 @@
+
+.navBar-sty{
+  background-color: black;
+  color:white;
+  font-weight: 30px;
+  position: sticky;
+}
+
+.example-spacer
+{
+  flex: 1 1 auto;
+}
+
+.btn-sty{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 2px 2px;
+  width: 70px;
+  outline: none;
+  color: white;
+  border-radius: 10%;
+  transition: 0.25s
+}
+
+.btn-sty:hover{
+ border-color: #2ecc71;
+ transform: translateX(-2px) translateY(-2px);
+ box-shadow: 0.2rem 0.2rem 0.1rem rgb(34, 26, 26);
+}
+
+.btn-sty-icon{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 2px 2px;
+  width: 35px;
+  outline: none;
+  color: white;
+  border-radius: 10%;
+  transition: 0.25s
+}
+
+.btn-sty-icon:hover{
+ border-color: #2ecc71;
+ transform: translateX(-2px) translateY(-2px);
+ box-shadow: 0.2rem 0.2rem 0.1rem rgb(34, 26, 26);
+}
